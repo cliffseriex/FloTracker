@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "409753173784",
+    "firebase_url": "https://flo-tracker.firebaseio.com",
+    "project_id": "flo-tracker",
+    "storage_bucket": "flo-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409753173784:android:498201d122e5c582",
+        "android_client_info": {
+          "package_name": "com.aaif_seriex.flo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409753173784-l2u3qhihv9vp4aknsm1qum319n0nfnkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMeIMeGICxy8LVK7SUApKvvndoI2HklKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409753173784-l2u3qhihv9vp4aknsm1qum319n0nfnkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

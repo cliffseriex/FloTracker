@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aaif_seriex.flo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="supportsRtl">
+        <activity
+            android:name=".ui.boardingSetUp"
+            android:label="@string/title_activity_boarding_set_up"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ui.MainActivityApp"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentBackground">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.RegisterActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ChatActivity"
+            android:parentActivityName=".ui.MainActivityApp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.DashboardActivity"
+            android:label="Dashboard" />
+        <activity
+            android:name=".ui.BarChartActivity"
+            android:label="Vertical Bar Chart" />
+        <activity
+            android:name=".ui.HorizontalBarChartActivity"
+            android:label="Horizontal Bar Chart" />
+        <activity
+            android:name=".ui.LineChartActivity"
+            android:label="Duo Line Chart" />
+        <activity
+            android:name=".ui.SingleLineActivity"
+            android:label="Single Line Chart" />
+        <activity
+            android:name=".ui.PieChartActivity"
+            android:label="Pie Chart" />
+        <activity android:name=".ui.PhoneLoginActivity" />
+        <activity android:name=".ui.PhoneRegisterActivity" />
+        <activity android:name=".ui.VerifyPhoneActivity" />
+        <activity
+            android:name=".ui.OnBoardingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Chat"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name=".ui.DetailsActivity"
+            android:label="@string/details_title" />
+        <activity
+            android:name=".ui.ListActivity"
+            android:label="@string/list_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.ListDetailsActivity"
+            android:label="@string/list_details_title" />
+        <activity
+            android:name=".util.PreferenceActivity"
+            android:label="@string/options_title" />
+        <activity
+            android:name=".ui.HelpActivity"
+            android:label="@string/help_title" />
+        <activity
+            android:name=".ui.AboutActivity"
+            android:label="@string/about_title" />
+        <activity
+            android:name=".ui.Community"
+            android:label="@string/community_title" />
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>
