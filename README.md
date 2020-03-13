@@ -1,2 +1,2 @@
 # FloTracker
-Period tracker and ovulation calendar
+Android App Period tracker and ovulation calendar
